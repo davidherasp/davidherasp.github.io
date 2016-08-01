@@ -37,12 +37,6 @@
 
 	    <div class="collapse navbar-collapse" id="navigation-index">
 	    	<ul class="nav navbar-nav navbar-right">
-	    	<li>
-					<a rel="tooltip" title="Check out my code at Github" data-placement="bottom" href="https://github.com/davidherasp" target="_blank" class="btn btn-white btn-simple">
-						<i class="fa fa-github"></i>
-						Github
-					</a>
-				</li>
 				<li>
 					<a rel="tooltip" title="Follow me on Twitter" data-placement="bottom" href="https://twitter.com/davidherasp" target="_blank" class="btn btn-white btn-simple">
 						<i class="fa fa-twitter"></i>
@@ -53,6 +47,12 @@
 					<a rel="tooltip" title="Let's be friends on Facebook" data-placement="bottom" href="https://www.facebook.com/davidherasp" target="_blank" class="btn btn-white btn-simple">
 						<i class="fa fa-facebook-square"></i>
 						Facebook
+					</a>
+				</li>
+				<li>
+					<a rel="tooltip" title="Check out my code at Github" data-placement="bottom" href="https://github.com/davidherasp" target="_blank" class="btn btn-white btn-simple">
+						<i class="fa fa-github"></i>
+						Github
 					</a>
 				</li>
 				<li>
@@ -128,7 +128,7 @@
 					<div class="content">
 						<div class="tab-content text-center">
 							<div class="tab-pane active" id="info">
-								<p> Summoner Spells is a web application that downloads all the ranked data from the summoner that makes the request and analyes that data in order to provide cool and simple charts that will display in what lane that summoner got most wins, with what champions it was and with what combination of summoner spells. And also there is another chart that just displays in a donut the wins per lane that the summoner achieved with the summoner spells combination he choosed. </p>
+								<p> Summoner Spells is a web application that downloads all the ranked data from the summoner that makes the request and analyses that data in order to provide cool and simple charts that will display in what lane that summoner got most wins, with what champions it was and with what combination of summoner spells. And also there is another chart that just displays in a donut the wins per lane that the summoner achieved with the summoner spells combination he choosed. </p>
 							</div>
 							<div class="tab-pane" id="how">
 								<p> The application is running on a Tomcat 8 server, so it's a Java app that has been developed with the JAXRS framework. So what this app does is just look for the summoner and upsert (insert or update if already exists) its information into de MongoDB. By other side there is a Python script running that looks for updates in the collection where the summoners data is stored, whenever a new summoner is registered it will start downloading all the ranked games and when all the games are downloaded it analyses the games and creates new data that will be readen by the Java app and represented as cool tree map and donut charts. </p>
