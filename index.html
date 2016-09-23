@@ -73,7 +73,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="brand">
-						<img src="assets/img/profile120-2.png" class="img img-circle img" alt="My face" rel="tooltip" title="<b>Hi I'm David</b> and I'm a 24 years old freelancer and CS student interested in <b>Big Data</b>, <b>games</b> and <b>esports</b>. Feel free to check my projects, profiles in social networks and contact me." data-placement="bottom" data-html="true">
+						<img src="assets/img/profile120-2.png" class="img img-circle img" alt="My face" rel="tooltip" title="<b>Hi I'm David</b> and I'm a 24 years old CS student interested in <b>Big Data</b>, <b>games</b> and <b>esports</b>. Feel free to check my projects, social networks and contact me whether is business or not." data-placement="bottom" data-html="true">
 						<h1 style="font-size: 40px">David Heras</h1>
 						<h3>24. Bits, games & esports</h3>
 					</div>
@@ -183,6 +183,58 @@
 							</div>
 							<div class="tab-pane" id="how2">
 								<p> The application is also running on a Tomcat 8 server but this time is Servlets only and what this app does is when someone inserts its summoner and region it will let him choose between recent matches or champion mastery and whatever the selection is the data needed is downloaded once the button is pressed. All the data is being downloaded via the <a href="https://github.com/meraki-analytics/Orianna" target="_blank">Orianna API</a>. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Tabs with icons on Card -->
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-md-6">
+				<div class="title">
+					<h3>Esports Bits<br />
+						<small>División de Honor (Spanish League of Legends League) stats</small>
+					</h3>
+				</div>
+				<!-- Tabs on Plain Card -->
+				<div class="card card-nav-tabs card-plain">
+					<div class="header header-info">
+						<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+						<div class="nav-tabs-navigation">
+							<div class="nav-tabs-wrapper">
+								<ul class="nav nav-tabs" data-tabs="tabs">
+									<li class="active">
+										<a href="#info3" data-toggle="tab">
+											<i class="material-icons">info</i>
+											About
+										</a>
+									</li>
+									<li>
+										<a href="#how3" data-toggle="tab">
+											<i class="material-icons">build</i>
+											How
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/esports_bits" target="_blank">
+											<i class="material-icons">play_arrow</i>
+											Let's go!
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="content">
+						<div class="tab-content text-center">
+							<div class="tab-pane active" id="info3">
+								<p> Esports Bits is an experimental project based on stats of División de Honor matches. There is a need that is not satisfied yet either by LVP or third parties. Providing from simple charts to more complicated analysis is the main goal of this project.</p>
+							</div>
+							<div class="tab-pane" id="how3">
+								<p> There are a lot of tasks that have to be done manually at the moment. The matches are custom matches and there is no information of the summoners or the teams so that information has to be aggregated manually. Also there is no way to track the matches if it is not by going to the LVP page and then to the match history link that they provide. There are other ways like looking for recent games of a team member but I think that that is not the right way. </p>
+								<p>	Once I know what match I want all i have to do is get the data in JSON from Riot API and then transform it into CSV. At the moment I'm doing that thanks to the tool provided <a href="https://konklone.io/json/" target="_blank">here</a>. That tool transforms the JSON into CSV and let you download the file. The need of a CSV format is because I'm using <a href="https://public.tableau.com/s/" target="_blank">Tableau Public</a> to visualize the data. </p>
+								<p> That is all the tools I use for now. The data isn't stored in any DB by the moment. In the future I want all the data stored somewhere but right now I'm wondering how the structure would be and whether to use SQL or NO-SQL data bases. I'm also waiting for some feedback to decide what path to take and where to focus. </p>
 							</div>
 						</div>
 					</div>
