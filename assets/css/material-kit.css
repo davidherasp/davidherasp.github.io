@@ -2902,7 +2902,7 @@ h2.title {
   background: linear-gradient(60deg, #fdd835, #f4b436);
 }
 .card .header-danger {
-  background: linear-gradient(60deg, #ef5350, #d83b50);
+  background: linear-gradient(60deg, #f43650, #f45c36);
 }
 .card [class*="header-"] {
   color: #FFFFFF;
