@@ -92,13 +92,56 @@
 				<div class="row">
 				<div class="col-md-6">
 				<div class="title">
-					<h3>Summoner Spells<br />
-						<small>League of Legends</small>
+					<h3>LoLSP (LoL Stats Provider)<br />
+						<small>League of Legends, Java web</small>
 					</h3>
 				</div>
 				<!-- Tabs on Plain Card -->
 				<div class="card card-nav-tabs card-plain">
 					<div class="header header-info">
+						<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+						<div class="nav-tabs-navigation">
+							<div class="nav-tabs-wrapper">
+								<ul class="nav nav-tabs" data-tabs="tabs">
+									<li class="active">
+										<a href="#info2" data-toggle="tab">
+											<i class="material-icons">info</i>
+											About
+										</a>
+									</li>
+									<li>
+										<a href="#how2" data-toggle="tab">
+											<i class="material-icons">build</i>
+											How
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="content">
+						<div class="tab-content text-center">
+							<div class="tab-pane active" id="info2">
+								<p> First of all, I have to say that this was my very first project. I didn't want to create something really cool but just something that would actually work. And I did this which is a simple League of Legends app that shows your recent matches and your champion mastery points. The recent matches idea/design is pretty much the same as in every website (op.gg and that stuff), a rectangular box with your champ, KDA, items and summoners, and then you can get into details and see your team mates and enemies, and even know what runes they or you were using. The champion mastery is a pretty cool card style list that will show you the champions and when you hover the card will flip and show more details. </p>
+							</div>
+							<div class="tab-pane" id="how2">
+								<p> The application is also running on a Tomcat 8 server but this time is Servlets only and what this app does is when someone inserts its summoner and region it will let him choose between recent matches or champion mastery and whatever the selection is the data needed is downloaded once the button is pressed. All the data is being downloaded via the <a href="https://github.com/meraki-analytics/Orianna" target="_blank">Orianna API</a>. </p>
+								<p> If the user selected recent games the application will show its 10 last games in an horizontal card style, like OP.gg and so on. If champion mastery was the selection the application will sort the champions by the number of mastery points descendent and in a standard card style way, like Magic cards, Hearthstone and that stuff. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Tabs with icons on Card -->
+				</div>
+				<div class="col-md-6">
+				<div class="title">
+					<h3>Summoner Spells<br />
+						<small>League of Legends, Java web, Big Data</small>
+					</h3>
+				</div>
+				<!-- Tabs on Plain Card -->
+				<div class="card card-nav-tabs card-plain">
+					<div class="header header-success">
 						<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
 						<div class="nav-tabs-navigation">
 							<div class="nav-tabs-wrapper">
@@ -135,54 +178,13 @@
 				</div>
 				<!-- End Tabs with icons on Card -->
 				</div>
-				<div class="col-md-6">
-				<div class="title">
-					<h3>LoLSP (LoL Stats Provider)<br />
-						<small>League of Legends</small>
-					</h3>
-				</div>
-				<!-- Tabs on Plain Card -->
-				<div class="card card-nav-tabs card-plain">
-					<div class="header header-success">
-						<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
-						<div class="nav-tabs-navigation">
-							<div class="nav-tabs-wrapper">
-								<ul class="nav nav-tabs" data-tabs="tabs">
-									<li class="active">
-										<a href="#info2" data-toggle="tab">
-											<i class="material-icons">info</i>
-											About
-										</a>
-									</li>
-									<li>
-										<a href="#how2" data-toggle="tab">
-											<i class="material-icons">build</i>
-											How
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="content">
-						<div class="tab-content text-center">
-							<div class="tab-pane active" id="info2">
-								<p> First of all, I have to say that this was my very first project. I didn't want to create something really cool but just something that would actually work. And I did this which is a simple League of Legends app that shows your recent matches and your champion mastery points. The recent matches idea/design is pretty much the same as in every website (op.gg and that stuff), a rectangular box with your champ, KDA, items and summoners, and then you can get into details and see your team mates and enemies, and even know what runes they or you were using. The champion mastery is a pretty cool card style list that will show you the champions and when you hover the card will flip and show more details. </p>
-							</div>
-							<div class="tab-pane" id="how2">
-								<p> The application is also running on a Tomcat 8 server but this time is Servlets only and what this app does is when someone inserts its summoner and region it will let him choose between recent matches or champion mastery and whatever the selection is the data needed is downloaded once the button is pressed. All the data is being downloaded via the <a href="https://github.com/meraki-analytics/Orianna" target="_blank">Orianna API</a>. </p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- End Tabs with icons on Card -->
-				</div>
 				</div>
 				<div class="row">
 				<div class="col-md-6">
 				<div class="title">
 					<h3>Esports Bits<br />
-						<small>División de Honor (Spanish League of Legends League) stats</small>
+						<small>División de Honor (Spanish League of Legends League) stats</small></br>
+						<small>JSON, CSV, Big Data, Tableau</small>
 					</h3>
 				</div>
 				<!-- Tabs on Plain Card -->
@@ -206,8 +208,14 @@
 									</li>
 									<li>
 										<a href="http://esports-bits.com" target="_blank">
-											<i class="material-icons">play_arrow</i>
-											Let's go!
+											<i class="material-icons">view_compact</i>
+											Website
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/esports_bits" target="_blank">
+											<i class="material-icons">favorite</i>
+											Twitter
 										</a>
 									</li>
 								</ul>
